@@ -16,21 +16,6 @@ body {
     background-color: #f4f4f9;
 }
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('wonogiri.png');
-    background-size: 50%; /* Menyesuaikan gambar latar belakang */
-    background-position: center;
-    background-attachment: fixed; /* Agar gambar tetap di tempat saat scroll */
-    opacity: 0.15; /* Opacity rendah agar gambar tidak mengganggu */
-    z-index: -1; /* Menempatkan gambar di bawah konten utama */
-}
-
 header {
     background-color: #3a3a3a;
     color: white;
@@ -105,18 +90,4 @@ footer {
     text-align: center;
     margin-top: auto;
     font-size: 0.9em;
-}
-
-@media (max-width: 600px) {
-    header {
-        font-size: 1.1em;
-    }
-
-    nav li a {
-        font-size: 1em;
-    }
-
-    .submenu li {
-        font-size: 0.9em;
-    }
 }
