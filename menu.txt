@@ -1,0 +1,25 @@
+KK
+  - KK baru
+    - KK lama
+    - Formulir F1
+    - Pas Foto
+  - KK Perubahan Data
+    - Pas Foto
+    - KK Lama
+  - KK Penambahan Anggota
+    - KK Lama
+    - Pas Foto
+  - KK Pengurangan Anggota
+    - KK Lama
+    - Pas Foto
+
+KTP
+  - Submenu 1
+    - Persyaratan A
+    - Persyaratan B
+  - Submenu 2
+    - Persyaratan C
+  - Submenu 3
+    - Persyaratan D
+  - Submenu 4
+    - Persyaratan E
